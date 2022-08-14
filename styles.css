@@ -1,0 +1,22 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+  @media screen and (min-width: 480px) {
+    .header {
+      background-color: rgb(167, 229, 167);
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .header {
+      background-color: rgb(99, 115, 142);
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .header {
+      background-color: rgb(42, 43, 94);
+    }
+  }
